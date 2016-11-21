@@ -8,7 +8,7 @@ span                                                      {
 
 ul#products                                               {
   li                                                      {
-    .price                                                { display: inline-block
+    .price                                                { display: inline-block;
       &.old                                               { color: grey; font-weight: normal; text-decoration: line-through; }
     }
   }
