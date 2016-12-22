@@ -9,7 +9,9 @@ span                                                      {
 ul#products                                               {
   li                                                      {
     .price                                                { display: inline-block;
-      &.old                                               { color: grey; font-weight: normal; text-decoration: line-through; }
+      &.old                                               { font-weight: normal; font-size: 12px; color: #666;
+                                                            display: block;
+      }
     }
   }
 }
